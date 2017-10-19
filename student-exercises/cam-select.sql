@@ -1,2 +1,2 @@
 USE rockStarDay2;
-SELECT * FROM individual WHERE LastName = 'Jennings';
+SELECT ID,lastName FROM individual WHERE deceasedDate IS NOT NULL;
