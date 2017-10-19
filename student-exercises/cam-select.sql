@@ -1,2 +1,2 @@
 USE rockStarDay2;
-SELECT Id,Name,Genre FROM band;
+SELECT * FROM individual WHERE LastName = 'Jennings';
