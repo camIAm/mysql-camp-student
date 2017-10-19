@@ -1,2 +1,2 @@
 USE rockStarDay2;
-SELECT ID,lastName FROM individual WHERE deceasedDate IS NOT NULL;
+SELECT ID,birthDate FROM individual WHERE year(birthDate)>1960;
